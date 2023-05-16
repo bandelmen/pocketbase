@@ -179,6 +179,10 @@ func (c *Client) List(collection string, params ParamsList) (ResponseList[map[st
 		request.SetQueryParam("sort", params.Sort)
 	}
 
+	if params.Expand != "" {
+		request.SetQueryParam("expand", params.Expand)
+	}
+
 	resp, err := request.Get(c.url + "/api/collections/{collection}/records")
 	if err != nil {
 		return response, fmt.Errorf("[list] can't send update request to pocketbase, err %w", err)

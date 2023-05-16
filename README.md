@@ -1,4 +1,4 @@
-[![Check & test & build](https://github.com/r--w/pocketbase/actions/workflows/main.yml/badge.svg)](https://github.com/r--w/pocketbase/actions/workflows/main.yml)
+[![Check & test & build](https://github.com/bandelmen/pocketbase/actions/workflows/main.yml/badge.svg)](https://github.com/bandelmen/pocketbase/actions/workflows/main.yml)
 [![PocketBase](https://pocketbase.io/images/logo.svg)](https://pocketbase.io)
 
 ### Project
@@ -37,7 +37,7 @@ package main
 import (
 	"log"
 
-	"github.com/r--w/pocketbase"
+	"github.com/bandelmen/pocketbase"
 )
 
 func main() {
@@ -60,7 +60,7 @@ package main
 import (
 	"log"
 
-	"github.com/r--w/pocketbase"
+	"github.com/bandelmen/pocketbase"
 )
 
 func main() {
@@ -83,7 +83,7 @@ package main
 import (
 	"log"
 
-	"github.com/r--w/pocketbase"
+	"github.com/bandelmen/pocketbase"
 )
 
 type post struct {
@@ -114,7 +114,7 @@ package main
 import (
 	"log"
 
-	"github.com/r--w/pocketbase"
+	"github.com/bandelmen/pocketbase"
 )
 
 type post struct {
